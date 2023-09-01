@@ -1,0 +1,92 @@
+.Main_div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/public/images/todo/note.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.child_div{
+    padding:1rem;
+    height: 80vh;
+    width:50vw ;
+    border-radius: 2rem;
+    background-color:rgba(0, 0, 0, 0.9);
+    color: white;
+   display: flex;
+   justify-content: center;
+}
+@media screen and (max-width:768px){
+    .child_div{
+        height: auto;
+        width: auto;
+    }
+}
+
+.list_heading{
+    height: fit-content;
+    padding: 0px 100px;
+}
+@media screen and (max-width:768px){
+    .list_heading{
+        padding:0px 20px;
+    }
+}
+.list_logo{
+    padding: 5px 0px 5px 30px;
+}
+
+.add_items_div{
+    padding: 0px 20px;
+    height: max-content;
+}
+
+
+.add_list_btn{
+    cursor: pointer;
+}
+
+.display_list{
+    padding: 0px 20px;
+}
+
+.add_item_input{
+   margin: 0px 5px;
+   font-size: 1rem;
+   width: 22vw;
+   border-style: none;
+   outline: none;
+   background-color: white;
+}
+
+
+.each_item{
+    margin: 1rem 0rem;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: black;
+}
+
+
+.added_list{
+    word-wrap: break-word;
+    margin: 0rem; 
+    width: 23vw;
+    background-color: yellowgreen;
+    color:blue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list_btn{
+    cursor: pointer;
+}
+.list_edit_btn{
+    margin-left: 3px;
+}
+
+.list_delete_btn{
+    margin-left: 3px;
+}
