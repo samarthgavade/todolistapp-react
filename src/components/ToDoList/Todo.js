@@ -24,7 +24,7 @@ const Todo =  () => {
       // setList(List.filter((Task,index)=>index !== id))
       //console.log(id);
       const selectArray = [...List]
-      //console.log(selectArray)
+      //console.log(selectArray)clear
       selectArray.splice(id,1);
       setList(selectArray);
     }
